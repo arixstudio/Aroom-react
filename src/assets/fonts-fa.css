@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Vazir';
+    src: url('./fonts/Vazir-Light.woff');
+  }
+  
+  @font-face {
+    font-family: 'Dana';
+    src: url('./fonts/dana-num.woff');
+}
+
+* {
+    font-family: 'Dana';
+}

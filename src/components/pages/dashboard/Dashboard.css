@@ -1,0 +1,17 @@
+.rw-container {
+    box-shadow: none !important;
+}
+
+.rw-container-main,
+.rw-container-main * {
+    background-color: #fff;
+    color: #000!important;
+}
+
+.rw-container-right {
+    background-color: #fff!important;
+}
+
+.rw-container-main svg {
+    fill: rgb(0, 0, 0) !important;
+}

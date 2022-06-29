@@ -1,0 +1,109 @@
+.custom-calendar {
+    width: 100%!important;
+    height: 100% !important;
+    margin-top: 17px;
+}
+
+.custom-calendar .rmdp-calendar {
+    width: 100% !important;
+    height: 100% !important;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+}
+
+.custom-calendar .rmdp-header {
+    margin-bottom: 5%;
+  }
+
+.custom-calendar .rmdp-day-picker > div {
+    width: 100%;
+}
+
+.custom-calendar .rmdp-day-picker * {
+    font-size: 15px !important;
+}
+
+.custom-calendar .rmdp-week,
+.custom-calendar .rmdp-ym {
+  margin-bottom: 8px;
+}
+
+.custom-calendar .rmdp-month-picker .rmdp-ym,
+.custom-calendar .rmdp-year-picker .rmdp-ym {
+  margin-bottom: 0;
+}
+
+.custom-calendar.rmdp-shadow {
+    box-shadow: none;
+}
+
+.custom-calendar  .rmdp-day,
+.custom-calendar .rmdp-week-day,
+.custom-calendar .rmdp-range {
+    width: 100%;
+    height: 40px;
+    box-shadow: none;
+}
+
+.custom-calendar .rmdp-rtl .rmdp-range.end {
+    border-bottom-left-radius: 20px!important;
+    border-bottom-right-radius: unset;
+    border-top-left-radius: 20px!important;
+    border-top-right-radius: unset;
+}
+
+.custom-calendar .rmdp-rtl .rmdp-range.start {
+    border-bottom-left-radius: unset;
+    border-bottom-right-radius: 20px!important;
+    border-top-left-radius: unset;
+    border-top-right-radius: 20px!important;
+}
+
+.custom-calendar .rmdp-day span {
+    border-radius: 20px!important;
+}
+
+.custom-calendar .rmdp-range-picker-footer {
+    bottom: 100px;
+    /* background-color: #f9f9f9; */
+    border-radius: 5px;
+}
+
+.custom-calendar .rmdp-border-bottom {
+    border-bottom: none;
+}
+
+.custom-calendar .rmdp-range-picker-footer .rmdp-header-values > div {
+    margin-top: 10px;
+}
+
+.custom-calendar .rmdp-range-picker-footer * {
+    font-size: 13px!important;
+}
+
+.custom-calendar .rmdp-arrow-container {
+    padding: 6px;
+}
+
+.custom-calendar .rmdp-header .rmdp-header-values {
+    font-size: 17px;
+}
+
+.custom-calendar .rmdp-day.rmdp-today span {
+    background-color: #ddd;
+}
+
+.custom-calendar .rmdp-range,
+.custom-calendar .rmdp-day:not(.rmdp-disabled):not(.rmdp-day-hidden) span:hover,
+.custom-calendar .rmdp-day.rmdp-selected span:not(.highlight) {  
+    background-color: #3c3c3c;
+}
+
+.custom-calendar .rmdp-arrow-container:hover {
+    background-color: #ccc;
+    box-shadow: none;
+}
+
+.custom-calendar .rmdp-cancel{
+    display: none;
+}
